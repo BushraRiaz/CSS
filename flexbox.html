@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding: 0 20px 30px 0;
+      line-height: 1.4;
+    }
+
+    /* .flex-container { */
+    /* display: flex; */
+    /* width: 100%; */
+    /* height: 500px; */
+    /* border: 2px solid red; */
+    /* align-content: stretch; */
+    /* align-items: center;      equal spaces */
+    /* align-content: center;  /*no space  */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+
+    /* } */
+
+    .flex-item {
+      width: 75px;
+      height: 75px;
+      background-color: blue;
+      text-align: center;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+      line-height: 1.4;
+      border: 2px solid green;
+    } 
+
+    #item1{
+      background-color: lightpink;
+    }
+
+    #item2 {
+      background-color: lightgoldenrodyellow;
+      /* flex-basis: 100px; */
+    }
+
+    #item3 {
+      background-color: lightgreen;
+      /* order: 5; */
+    }
+
+    #item4 {
+      background-color: lightcyan;
+      flex-grow: 2;
+    }
+
+    #item5 {
+      background-color: lightsalmon;
+    }
+
+    /* #item6 { */
+      /* background-color: linen; */
+    /* } */
+
+    /* #item7 { */
+      /* flex-basis: 200px; */
+      /* background-color: lemonchiffon; */
+    /* } */
+
+    /* #item8 { */
+      /* background-color: lightgoldenrodyellow; */
+    /* } */
+
+    /* #item9 { */
+      /* background-color: lightcoral; */
+    /* } */
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="flex-item" id="item1">1</div>
+    <div class="flex-item" id="item2">2</div>
+    <div class="flex-item" id="item3">3</div>
+    <div class="flex-item" id="item4">4</div>
+    <div class="flex-item" id="item5">5</div>
+    <!-- <div class="flex-item" id="item6">6</div> -->
+    <!-- <div class="flex-item" id="item7">7</div> -->
+    <!-- <div class="flex-item" id="item8">8</div> -->
+    <!-- <div class="flex-item" id="item9">9</div> -->
+  </div>
+</body>
+
+</html>
